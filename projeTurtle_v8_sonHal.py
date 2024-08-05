@@ -325,33 +325,7 @@ def main():
             metinden_sese(verilen_cevap)
 
 
-'''
-def main():
-    turtle.setup(width=600, height=400)
-    turtle.hideturtle()
-    turtle.speed(0)
-    turtle.penup()
-    
-    textWrite("Lazzaran başlatıldı. Çıkmak için 'çık' veya 'çıkış' deyin.")
-    while True:
-        kullanci_girisi = ses_tani()
-        if kullanci_girisi:
-            if "çık" in kullanci_girisi.lower() or "çıkış" in kullanci_girisi.lower():
-                textWrite("Çıkış yapılıyor...")
-                metinden_sese("Çıkış yapılıyor...")
-                break
-            verilen_cevap = generate_text_response(kullanci_girisi)
-            #verilen_cevap = verilen_cevabi_getir(kullanci_girisi)
-            if verilen_cevap :
-                metinden_sese(verilen_cevap)
-            else:
-                metinden_sese("Bir hata oluştu, lütfen tekrar deneyin.")
 
-            textWrite(f"Lazzaran: {verilen_cevap}")
-           
-             metinden_sese(verilen_cevap)
-
-'''
 
 
 if __name__ == "__main__":
